@@ -42,6 +42,8 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
 	</dependencies>
 
 	<dependencyManagement>
@@ -55,7 +57,13 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
+	<repositories>
+		<repository>
+			<id>nexus-daocloud</id>
+			<name>Nexus daocloud</name>
+			<url>http://nexus.daocloud.io/repository/maven-public/</url>
+		</repository>
+	</repositories>
 	<build>
 		<plugins>
 			<plugin>

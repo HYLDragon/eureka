@@ -1,4 +1,4 @@
-FROM hub.c.163.com/library/java:8-alpine
+FROM maven:3.5.0-jdk-8-alpine
 
 MAINTAINER 632105841@qq.com
 
